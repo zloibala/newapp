@@ -1,0 +1,10 @@
+.single-input {
+  display: flex;
+  align-items: center;
+}
+
+.single-input label {
+  width: 150px;
+  display: inline-block;
+  border: none;
+}
