@@ -9,7 +9,7 @@ const CustomForm = () => {
       <FormInput label=" Email " type=" email" />
       <FormInput label=" Password " type="Password" />
       <FormInput label="Confirm Password " type="Password" />
-      <FormInput type="Checkbox" />
+      <FormInput label="" type="Checkbox" />
       <MyButton name="Submit" type="medium" />
     </form>
   );

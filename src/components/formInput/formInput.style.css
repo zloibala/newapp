@@ -8,3 +8,8 @@
   display: inline-block;
   border: none;
 }
+input {
+  border-color: none;
+  border: none;
+  border-radius: 6px;
+}
