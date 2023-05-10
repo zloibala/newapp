@@ -1,10 +1,20 @@
 import "./formInput.style.css";
 
-const FormInput = ({ label, type }) => {
+const FormInput = ({ label, type, name }) => {
+  const onChangeHandler = (e) => {
+    if ("Esma" === e.target.value) {
+      console.log(e);
+      alert(`Hi ${e.target.value}`);
+    } else {
+      console.log("You are not Esma");
+    }
+    console.log(e.target.name, e.target.value);
+  };
+
   return (
     <div className="single-input">
       <label>{label}</label>
-      <input type={type} />
+      <input type={type} name={name} onChange={onChangeHandler} />
     </div>
   );
 };
