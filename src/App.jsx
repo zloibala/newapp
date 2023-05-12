@@ -2,6 +2,7 @@ import "./app.style.css";
 import MyButton from "./components/mybutton/MyButton";
 import CustomForm from "./components/customForm/CustomForm";
 import FormInput from "./components/formInput/FormInput";
+import CounterApp from "./components/containers/counterApp/CounterApp";
 
 function App() {
   const onClickHandler = () => {
@@ -10,9 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <h3> 0 </h3>
-      <button onClick={onClickHandler}> add +1 </button> */}
-      <CustomForm />
+      {/* <CustomForm /> */}
+      <CounterApp />
     </div>
   );
 }
